@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rewards"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="#ffcc00"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/level_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="Level 1"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/star_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/level_1"
+            android:layout_marginRight="5dp"
+            tools:src="@drawable/yellow_star" />
+
+        <ImageView
+            android:id="@+id/star_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/star_1"
+            android:layout_marginRight="5dp"
+            tools:src="@drawable/yellow_star" />
+
+        <ImageView
+            android:id="@+id/star_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/star_2"
+            tools:src="@drawable/yellow_star" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="#ffcc00"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/level_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="Level 2"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/heart_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/level_2"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            tools:src="@drawable/red_heart" />
+
+        <ImageView
+            android:id="@+id/heart_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/heart_1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            tools:src="@drawable/red_heart" />
+
+        <ImageView
+            android:id="@+id/heart_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/heart_2"
+            android:layout_marginTop="5dp"
+            tools:src="@drawable/grey_heart" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="#ffcc00"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/level_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Level 3"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/thunder_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/level_3"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            tools:src="@drawable/blue_thunder" />
+
+        <ImageView
+            android:id="@+id/thunder_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/thunder_1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            tools:src="@drawable/grey_thunder" />
+
+        <ImageView
+            android:id="@+id/thunder_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/thunder_2"
+            android:layout_marginTop="5dp"
+            tools:src="@drawable/grey_thunder" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="#ffcc00"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/level_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Level 4"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/diamond_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/level_4"
+            android:layout_marginRight="5dp"
+            tools:src="@drawable/grey_diamond" />
+
+        <ImageView
+            android:id="@+id/diamond_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/diamond_1"
+            android:layout_marginRight="5dp"
+            tools:src="@drawable/grey_diamond" />
+
+        <ImageView
+            android:id="@+id/diamond_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/diamond_2"
+            tools:src="@drawable/grey_diamond" />
+
+    </RelativeLayout>
+
+</LinearLayout>
